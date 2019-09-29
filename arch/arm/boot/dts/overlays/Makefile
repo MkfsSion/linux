@@ -128,6 +128,7 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	rpi-cirrus-wm5102.dtbo \
 	rpi-dac.dtbo \
 	rpi-display.dtbo \
+	rpi-fi.dtbo \
 	rpi-ft5406.dtbo \
 	rpi-poe.dtbo \
 	rpi-proto.dtbo \

@@ -57,3 +57,10 @@ config RPIVID_MEM
 		This driver provides a character device interface for memory-map operations
 		so userspace tools can access the control and status registers of the
 		Raspberry Pi RPiVid video decoder hardware.
+
+config RPI_FI
+	tristate "Raspberry Pi's firmware interface driver"
+	depends on RASPBERRYPI_FIRMWARE
+	default m
+	help
+		This driver provides a character device interface to access Raspberry Pi's firmware settings.

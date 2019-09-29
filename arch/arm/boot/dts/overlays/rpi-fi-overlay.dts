@@ -1,0 +1,14 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+	fragment@0 {
+		target = <&soc>;
+		__overlay__ {
+			rpi_fi {
+				compatible = "raspberrypi,bcm2835-firmware-interface";
+				status = "okay";
+			};
+		};
+	};
+};
